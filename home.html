@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="slideshowhome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+</head>
+<title>Aanchal</title>
+
+<body>
+
+  <!-- navbar -->
+
+  <section class="about-header">
+    <div class="about-top" id="about-id">
+      <div class="logo-area">
+        <a href="home.html"><img src="homeimg/WhatsApp_Image_2023-05-05_at_10.26.36_PM-removebg-preview.png" alt=""></a>
+      </div>
+    </div>
+
+    <div class="about-nav">
+      <li>
+        <div class="about-nav1">
+          <p>EMERGENCY</p>
+        </div>
+        <div class="about-nav1">
+          <p>ABOUT US</p>
+        </div>
+        <div class="about-nav1">
+          <p>BLOGS</p>
+        </div>
+        <div class="about-nav1">
+          <p>DOCTORS</p>
+        </div>
+        <div class="about-nav1">
+          <p>NEWS</p>
+        </div>
+        <div class="about-nav1">
+          <p>RESOURCES</p>
+        </div>
+        <div class="about-nav1">
+          <p>DONATE</p>
+        </div>
+        <div class="about-nav1">
+          <p>CONTACT US</p>
+        </div>
+        <div class="about-nav1">
+          <p>SUBSCRIPTIONS</p>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">REGISTER
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">MIDWIFE</a>
+            <a href="#">INSTRUCTOR</a>
+            <!-- <a href="#">Link 3</a> -->
+          </div>
+        </div>
+      </li>
+    </div>
+    <br>
+    <hr>
+    <!-- <hr> -->
+    <br>
+    <br>
+  </section>
+    <!-- navbar end -->
+
+    <!-- 2nd start -->
+    <div class="slideshow-container">
+      <div class="mySlides fade img1">
+        <div class="numbertext "></div>
+        <img src="homeimg/PhotoFunia-1682758045.jpg">
+        <div class="text">
+          <h1>Caption One</h1>
+        </div>
+      </div>
+
+      <div class="mySlides fade img2">
+        <div class="numbertext"></div>
+        <img src="homeimg/PhotoFunia-1682758259.jpg">
+        <div class="text">
+          <h1>Caption Two</h1>
+        </div>
+      </div>
+
+      <div class="mySlides fade img3">
+        <div class="numbertext"></div>
+        <img src="homeimg/Untitled design (12).png">
+        <div class="text">
+          <h1>Caption Three</h1>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 6000); // Change image every 2 seconds
+      }
+    </script>
+
+    <!-- 2nd end -->
+
+
+    <!-- 3rd start -->
+    <section class="second">
+      <br>
+      <h1>How can we help you?</h1>
+      <br>
+      <div class="why">
+        <div class="why2">
+          <img src="homeimg/WhatsApp Image 2023-04-29 at 12.15.49 AM.jpeg" alt="" height="270px" width="550px">
+          <div class="para">
+            <div class="para1 pa">
+              <i>I'm a</i><br>
+              Parent!
+            </div>
+            <div class="para1 para2">
+              <i>I'm expecting a baby</i><br>
+              or hoping to get pregnant soon! <br>
+              <button>learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="why2">
+          <img src="homeimg/WhatsApp Image 2023-04-29 at 12.19.15 AM.jpeg" alt="" height="270px" width="550px">
+          <div class="para">
+            <div class="para1 pa">
+              <i>I'm a</i><br>
+              Professional!
+            </div>
+            <div class="para1 para2 para3">
+              <i>I'm a doula,nurse,midwife</i><br>
+              childbirth educator, or physician! <br>
+              <button><a href="doula.html">learn more</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </section>
+    <!-- 3rd end -->
+
+    <!-- 4th start -->
+    <section class="months">
+      <div class="content">
+        <h1>My pregnancy months by months</h1>
+        <div class="btn_s">
+          <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+          <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+        </div>
+      </div>
+      <div class="item">
+        <li>
+          <div class="img1">
+            <img src="homeimg/1st month.jpg" alt="">
+            <div>Your baby is an embryo consisting of two layers of cells from which all her organs and body parts will
+              develop.</div>
+            <h3>1st month</h3>
+          </div>
+        </li>
+        <li>
+          <div class="img1">
+            <img src="homeimg/2nd.jpg" alt="">
+            <div>Your baby is now about the size of a kidney bean and is constantly moving. He has distinct, slightly
+              webbed fingers.</div>
+            <h3>2nd month</h3>
+          </div>
+        </li>
+        <li>
+          <div class="img1">
+            <img src="homeimg/3rd.jpg" alt="">
+            <div>Baby is around 3 inches long and weighs about the same as a pea pod. Her tiny, unique fingerprints are
+              now in place.</div>
+            <h3>3rd month</h3>
+          </div>
+        </li>
+        <li>
+          <div class="img1">
+            <img src="homeimg/4th.webp" alt="">
+            <div>Your baby is now about 13cm (5.5in) long and weighs 140g (5oz). His skeleton is starting to harden from
+              rubbery cartilage to bone</div>
+            <h3>4th month</h3>
+          </div>
+        </li>
+        <li>
+          <div class="img1">
+            <img src="homeimg/5th.jpg" alt="">
+            <div>Eyebrows and eyelids are now in place. Your baby would now be more than 27cm (10.5in) long if you
+              stretched out her legs.</div>
+            <h3>5th month</h3>
+          </div>
+        </li>
+        <li>
+          <div class="img1">
+            <img src="homeimg/6th.webp" alt="">
+            <div>Your baby weighs about a 660g (1.5lb). His wrinkled skin is starting to smooth out as he puts on baby
+              fat.</div>
+            <h3>6th month</h3>
+          </div>
+        </li>
+        <li>
+          <div class="img1">
+            <img src="homeimg/7th.jpg" alt="">
+            <div>By now, your baby is more than 40cm (15in) long. She can open and close her eyes and probably see
+              what's around her.</div>
+            <h3>7th month</h3>
+          </div>
+        </li>
+        <li>
+          <div class="img1">
+            <img src="homeimg/8th.jpg" alt="">
+            <div>Your baby now weighs about 2.2kg (4.7lb). His layers of fat are filling him out, making him rounder,
+              and his lungs are well developed.</div>
+            <h3>8th month</h3>
+          </div>
+        </li>
+        <li>
+          <div class="img1">
+            <img src="homeimg/9th.jpg" alt="">
+            <div>Your baby is almost due. At birth, the average baby is more than 51cm long from head to toe & weighs
+              approx 3.4kg, but babies vary widely in size at this stage.</div>
+            <h3>9th month</h3>
+          </div>
+        </li>
+      </div>
+
+      <script>
+
+        let left_scrolls = document.getElementById("left_scrolls");
+        let right_scrolls = document.getElementById("right_scrolls");
+        let item = document.getElementsByClassName("item")[0];
+        left_scrolls.addEventListener("click", () => {
+          item.scrollLeft -= 330;
+        });
+        right_scrolls.addEventListener("click", () => {
+          item.scrollLeft += 330;
+        });
+
+      </script>
+
+    </section>
+
+    <!-- 4th end -->
+
+
+    <!-- 7th start -->
+    <section class="magic">
+      <div class="mag1">
+        <p>What we do?</p>
+      </div>
+      <div class="mag2">
+        <div class="content">
+          <img src="homeimg/mag1.jfif" alt="">
+          <h1>Inform & inspire</h1>
+          <p>families with free <br> aritcles & printables</p>
+        </div>
+        <div class="content">
+          <img src="homeimg/mag2.png" alt="">
+          <h1>Tackle the</h1>
+          <p>hot birth topics <br> you care about</p>
+        </div>
+        <div class="content">
+          <img src="homeimg/mag3.jpg" alt="">
+          <h1>Provide unbiased</h1>
+          <p>information you <br> can trust!</p>
+        </div>
+        <div class="content">
+          <img src="homeimg/mag4.webp" alt="">
+          <h1>Make birth</h1>
+          <p>research simple <br> & accessible</p>
+        </div>
+        <div class="content">
+          <img src="homeimg/mag6.jfif" alt="">
+          <h1>Foster a savvy</h1>
+          <p>community of <br> professionals <br> members</p>
+        </div>
+        <div class="content">
+          <img src="homeimg/mag5.jfif" alt="">
+          <h1>Have a passion for</h1>
+          <p>families receiving <br> outstanding care</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7th end -->
+
+
+
+    <!-- 5th start -->
+    <div class="testimonial-container">
+      <div class="progress-bar"></div>
+      <div class="fas fa-quote-right fa-quote"></div>
+      <div class="fas fa-quote-left fa-quote"></div>
+      <p class="testimonial">
+        Thank you so much from the bottom of hearts for taking such good care of us during/after the pregnancy as well
+        as the delivery!! Because of your professionalism and great smiles, we felt like we were in good hands and that
+        gave us peace of mind towards the big day. Thank you for helping deliver the most precious gift of our life!!
+      </p>
+      <div class="user">
+        <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="user" class="user-image" />
+        <div class="user-details">
+          <h4 class="username">Miyah Myles</h4>
+          <p class="role">Mother</p>
+        </div>
+      </div>
+    </div>
+    <script src="testimonial.js"></script>
+
+    <!--5th end-->
+
+    <!-- 8th start -->
+
+<section class="pattern">
+  <div class="patt1">
+    <h1>What We Can Help You With..?</h1>
+  </div>
+  <div class="patt2">
+    <div class="p1">
+      <img src="homeimg/p1.jpg" alt="">
+      <div class="colo">     
+      </div>
+    </div>
+    <div class="p1 p4">
+      <img src="homeimg/p2.jpg" alt="">
+      <div class="colo">
+      </div>
+    </div>
+    <div class="p1 p2">
+      <img src="homeimg/p3.jpg" alt="">
+      <div class="colo">
+      </div>
+    </div>
+  </div>
+  
+  <div class="patt2">
+    <div class="p1 p3">
+      <img src="homeimg/p4.png" alt="">
+      <div class="colo">
+      </div>
+    </div>
+    <div class="p1">
+      <img src="homeimg/p5.png" alt="">
+      <div class="colo">
+      </div>
+    </div>
+    <div class="p1 p5">
+      <img src="homeimg/p6.avif" alt="">
+      <div class="colo">
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- 8th end -->
+
+    <!-- 9th start -->
+    <section class="magic1">
+      <div class="mag11">
+        <p>Why You Can Trust <font color="red" style="font-family: Georgia, 'Times New Roman', Times, serif;">Aanchal..!
+          </font>
+        </p>
+      </div>
+      <div class="mag21">
+        <div class="content1">
+          <img src="homeimg/n1.png" alt="">
+          <h1>Accurate</h1>
+          <p>Fact-checked with the latest science-backed research</p>
+        </div>
+        <div class="content1">
+          <img src="homeimg/n2.png" alt="">
+          <h1>Trustworthy</h1>
+          <p>Edited and reviewed by<br> doctors and parenting <br> professionals</p>
+        </div>
+        <div class="content1">
+          <img src="homeimg/n3.png" alt="">
+          <h1>
+            <pre>      Timely</pre>
+          </h1>
+          <p>Updated regularly to reflect the latest information</p>
+        </div>
+      </div>
+    </section>
+    <!-- 9th end -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <br>
+      <br>
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+          <a href="services.html" target="_blank">
+            <i class="fas fa-chevron-right"></i> services
+          </a>
+          <a href="about.html" target="_blank">
+            <i class="fas fa-chevron-right"></i> about
+          </a>
+          <a href="doctors.html" target="_blank">
+            <i class="fas fa-chevron-right"></i> doctors
+          </a>
+          <a href="book.html" target="_blank">
+            <i class="fas fa-chevron-right"></i> book
+          </a>
+          <a href="review.html" target="_blank">
+            <i class="fas fa-chevron-right"></i> review
+          </a>
+          <a href="blogs.html" target="_blank">
+            <i class="fas fa-chevron-right"></i> blogs
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>our services</h3>
+          <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a>
+          <a href="#"> <i class="fas fa-chevron-right"></i> message therapy </a>
+          <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a>
+          <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i> ambulance service
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +91 6388730259 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +91 9837805140 </a>
+          <a href="#">
+            <i class="fas fa-envelope"></i> aanchal.24x7@gmail.com
+          </a>
+
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> ghaziabad, india - 201009
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+          <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+      </div>
+
+      <!-- 6th css -->
+      <section class="touch">
+        <div class="content">
+          <h1>keep in touch <font color="red">!</font>
+          </h1>
+          <p>Stay in touch by signing up for our newsletter. <br> Get just the information you want, sent direct to you.
+          </p>
+        </div>
+        <div class="form">
+          <div class="input_field">
+            <input required type="text" placeholder="Full Name" class="input" size="30">
+          </div>
+          <div class="input_field">
+            <input required type="email" placeholder="Email" class="input" size="30">
+          </div>
+          <button>subscribe</button>
+        </div>
+      </section>
+      <div class="credit">
+        created by <span>MKKA</span> | all rights reserved
+      </div>
+    </section>
+    <!-- 6th css end -->
+    <!-- footer section ends -->
+
+</body>
+
+</html>

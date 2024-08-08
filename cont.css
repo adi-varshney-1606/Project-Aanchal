@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(homeimg/coralbg.jpg);
+  background-size: 1540px 450px;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* overflow-x: hidden; */
+}
+.about-top{
+  /* background-color:white; */
+  width:100%;
+  height: 130px;
+  position: relative;
+}
+.logo-area img{
+  width: 380px;
+  height: 330px;
+  position: absolute;
+  margin-left: 40%;
+  position: absolute;
+  margin-top: -87px;
+}
+.about-nav{
+  position: relative;
+  z-index: 1;
+}
+.about-nav li{
+  display:flex;
+  justify-content: space-evenly;
+}
+.about-nav:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1) ;
+}
+.about-nav .about-nav1 p{
+  font-size: 20px;
+  margin-top: 25px;
+  font-family: 'Kaushan Script', cursive;
+}
+.about-nav .about-nav1 p:hover{
+  text-decoration: none;
+  cursor: pointer;
+  /* color: rgb(249, 244, 242); */
+}
+
+  .contact .content{
+    display: flex;
+    margin-left: 23rem;
+    margin-top: 10rem;
+  }
+  .box{
+    flex-basis: 23%;
+    box-shadow: 0px 8px 16px 0px rgba(233, 83, 63);
+    background-color: white;
+  }
+  .contact .content .box{
+    padding: 10px 10px;
+    margin-right: 20px;
+    height: 320px; 
+  }
+  .contact h1{
+    margin-top: 25px;
+    text-align: center;
+  }
+  .contact .content .box h3{
+    text-align: center;
+  }
+  .contact .content .box .icons{
+    margin-top: 20px;
+    margin-left: 6px;
+  }
+  .contact .content .box .icons i{
+    padding-top: 25px;
+  }
+  .contact .content .box .icons span{
+    padding-left: 15px;
+  }
+  .contact .content .box button{
+    font-size: 1rem;
+    border: 2px solid coral;
+    border-radius: 50px;
+    padding: 5px 5px;
+    margin-left: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+  }
+  .contact .content .box button:hover{
+    background-color: coral;
+  }
+  .contact .message{
+    display: flex;
+  }
+  .contact .message .icons i{
+    /* border: 2px solid coral; */
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    /* background-color: coral; */
+    font-size: 40px;
+  }
+  .contact .message .icons .f{
+    background-color: rgb(28, 28, 198);
+  }
+  .contact .message .icons .t{
+    background-color: rgb(28, 110, 198);
+  }
+  .contact .message .icons .l{
+    background-color: rgb(53, 83, 229);
+  }
+  .contact .message .icons .i{
+    background-color: rgb(216, 40, 122);
+  }
+  .contact .message h1{
+    text-align: center;
+  }
+  .contact .message .form{
+    margin-left: 17rem;
+    margin-bottom: 50px;
+  }
+  .contact .message .form .firstline{
+    display: flex;
+  }
+  .contact .message .form .firstline .input_field{
+    padding-right: 70px;
+    margin: 30px 30px;
+    box-shadow: 0px 8px 16px 0px rgba(233, 83, 63,0.2);
+  }
+  .contact .message .form .firstline #text{
+    margin-left: 60px;
+    width: 45rem;
+    height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(233, 83, 63,0.3);
+  }
+  ::placeholder{
+    padding-left: 10px;
+  }
+  .contact .message .form button{
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 10px 10px;
+    margin-left: 350px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: coral;
+  }

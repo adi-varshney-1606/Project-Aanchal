@@ -1,0 +1,61 @@
+
+ * {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+ .mySlides img{
+  width: 100%;
+ 
+ }
+ .slideshow-container{
+  background-color: black;
+  margin-bottom:-50px;
+ }
+ .slideshow-container .img1 img{
+   margin-top: -2px;
+   
+ }
+ .slideshow-container .img2 img{
+  margin-top: -2px;
+  
+}
+.slideshow-container .img3 img{
+  margin-top: -2px;
+  
+}
+ .slideshow-container{
+  margin-top: -60px;
+  margin-left: -60px;
+  margin-right: -30px;
+ }
+ .slideshow-container .mySlides .text h1{
+    color:black;
+    font-size: 50px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    transform:translateY(100px);
+    animation: example 12s linear infinite;
+    bottom: 400px;
+    right: 450px
+    /* animation: 2s;
+    transform:rotateY('360'); */
+  
+  }
+  @keyframes example {
+    10%{
+      transform:translateY(0px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
+  }

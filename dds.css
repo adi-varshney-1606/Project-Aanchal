@@ -1,0 +1,125 @@
+.whole{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img-dds/bg1.png);
+    /* background-size: 1540px 750px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* overflow-x: hidden; */
+}
+.about-top {
+    background-color: white;
+    width: 100%;
+    height: 130px;
+    position: relative;
+}
+
+.logo-area img {
+    width: 380px;
+    height: 330px;
+    position: absolute;
+    margin-left: 40%;
+    position: absolute;
+    margin-top: -87px;
+}
+
+.about-nav {
+    position: relative;
+    z-index: 1;
+}
+
+.about-nav li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-nav:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-nav .about-nav1 p {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.about-nav .about-nav1 p:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: coral;
+}
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-top: 70px;
+    margin-left: 600px;
+}
+
+.content .box1{ 
+    background-color: rgb(127, 250, 158);
+    margin-left: 8rem;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    height: 600px;
+    width: 450px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 3.5);
+}
+
+.content .box2{ 
+    background-color: rgb(255, 132, 132);
+    margin-right: 8rem;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    height: 600px;
+    width: 450px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 3.5);
+    
+}
+.content{
+    display: flex;    
+}
+
+.content .mother img{
+    margin-top: 80px;
+    margin-left: 40px;
+    height: 600px;
+    width: 450px;
+    opacity: 0.2;
+}
+
+.content .box1 h2{
+    margin-bottom: -3px;
+    margin-left: 140px;
+    font-size: 50px;
+    text-decoration: underline dotted;
+    
+}
+
+.content .box2 h2{
+    margin-bottom: -3px;
+    margin-left: 120px;
+    font-size: 50px;
+    text-decoration: underline dotted;
+}
+
+.content .box1 .tick img{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.content .box2 .cross img{
+    height: 38px;
+    width: 38px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.content .box1 .tick .one{
+    display: flex;
+}
+.content .box2 .cross .two{
+    display: flex;
+}

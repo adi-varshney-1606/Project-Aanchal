@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#blog_id{
+/* background-image: url(img/coral-bg.jpeg); */
+background-size: cover;
+background-color: white;
+height: 142rem;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family:monospace;
+    color: rgb(35, 4, 102);
+    text-align: center;
+    padding-top: 20px;
+    text-decoration:underline;
+}
+.blog_container .blog-row{
+    background-color: aliceblue;
+    width: 85rem;
+    height: 50rem;
+    display: flex;
+    margin-left: 150px;
+    background-color: #becffb;;
+    justify-content: space-evenly;
+    box-shadow:0px 8px 16px 0px rgb(24, 24, 25);
+    margin-top: 10px;
+    
+}
+
+
+
+ .b1{
+    width: 21rem;
+    height: 35rem;
+    /* display: flex; */
+    background-color: rgb(251, 251, 249);
+    flex-basis: 25%;
+    margin-top: 7rem;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    
+    box-shadow:0px 8px 16px 0px rgb(73, 73, 76);
+}
+.common img{
+   height: 220px;
+   width: 340px;
+   border-radius: 20px;
+}
+.b2{
+    width: 21rem;
+    height: 35rem;
+    /* display: flex; */
+    background-color: rgb(251, 251, 249);;
+    flex-basis: 25%;
+    margin-top: 7rem;
+    border-radius: 20px;
+    box-shadow:0px 8px 16px 0px rgb(73, 73, 76);
+
+}
+.b3{
+    width: 21rem;
+    height: 35rem;
+    /* display: flex; */
+    background-color:rgb(251, 251, 249);
+    flex-basis:25%;
+    margin-top: 7rem;
+    border-radius: 20px;
+    box-shadow:0px 8px 16px 0px rgb(73, 73, 76);
+}
+.image-content h1{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-bottom: 200px; */
+    text-align: center;
+    margin-top: 10px;
+}
+.image-content p{
+    margin: 10px 10px;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn1{
+    margin-left: 90px;
+    margin-top: 10px;
+    background-color:  #becffb;;
+    height: 40px;
+    width: 180px;
+    border: solid 2px black;
+    border-radius: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}

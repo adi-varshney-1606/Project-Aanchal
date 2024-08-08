@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Roboto:ital@1&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans:ital,wght@1,500&family=Roboto:ital@1&family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Roboto:ital@1&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Mukta:wght@600&family=Roboto:ital@1&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .eat-healthy h1{
+    border: 2px solid black;
+border-radius: 10px;
+width: 250px;
+background-color: coral;
+} */
+h1{
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+    border: 2px solid black;
+border-radius: 10px;
+width: 800px;
+background-color: rgb(254, 185, 157);;
+color: black;
+    /* font-family: 'Arvo', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+font-family: 'Arvo', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+    color:black;
+    font-family: 'Arvo', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+justify-content: center;
+padding-left: 20px;
+border: 2px solid black;
+border-radius: 10px;
+width: 250px;
+background-color:rgb(254, 185, 157);;
+}
+h3{
+    margin-top: 30px;
+    padding-left: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+border-radius: 10px;
+width: 250px;
+background-color:rgb(254, 185, 157);;
+color: black;
+font-size: 40px;
+font-family: 'Arvo', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+}
+.redirect1{
+    width: 100rem;
+    height:700px;
+    background-color:white;
+    display: flex;
+    margin-left: 10px;
+}
+.redirect-left p{
+        /* float: left; */
+        padding-top:25px ;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 28px;
+        font-family: 'Arvo', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+/* font-family: 'Arvo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif; */
+        text-align: justify;
+    }
+.common{
+    /* background-color: white;
+    width: 70rem; */
+    /* height: 100rem; */
+    /* flex-basis:50%; */
+}
+.redirect1 .redirect-left{
+    background-color: white;
+    height: 200rem;
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 2rem;
+    padding-bottom: 20px;
+
+
+}
+.redirect-right{
+    /* background-color: red; */
+    background-color: white;
+    height: 20rem;
+    width: 350px;
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    margin-bottom: 2rem;
+    padding-bottom: 20px;
+    position: relative;
+    /* display: block; */
+    margin-left: 50px;
+}
+.redirect-left img{
+    height: 400px;
+   margin-left: 100px;
+   margin-top: 30px;
+}
+.video{
+        margin-top: 6rem;
+        margin-left: 7rem;
+    }
+
+
+    .about-aanchal{
+        margin-top: 50px;
+         background-color: rgb(235, 233, 233);
+         height: 700px;
+         border-radius: 5px;
+    }
+    .about-aanchal img{
+        margin-top: 20px;
+        margin-left: -50px;
+        /* margin-right: 200px;        height: 400px; */
+        /* border: 2px solid black; */
+        /* box-shadow: 0px 8px 16px 0px black; */
+    }
+    
+
+    .side-features{
+        background-color:rgb(235, 233, 233);
+        position: -webkit-sticky;
+        position: sticky;
+        height: 500px;
+        top: 600px;
+        bottom: 500px;
+    }
+    .side-features h1{
+        color: coral;
+        font-size: 50px;
+    }
+    .side-features p{
+        margin-top: 10px;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    span{
+        color: coral;
+    }
+    .about-aanchal p{
+        font-size: 20px;
+        /* margin-left: 10px;
+        padding-right: 20px; */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    b{
+        font-family: 'Arvo', serif;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-size: 47px;  
+    }
